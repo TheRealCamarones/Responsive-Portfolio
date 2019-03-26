@@ -10,8 +10,6 @@ body {
     box-sizing: border-box;
   }
   
-  /* general */
-  
 .container {
     width: 100%;
     max-width: 960px;
@@ -135,7 +133,7 @@ h3, h2 {
   }
   
   /* portfolio page */
-  
+/*   
 .work {
     position: relative;
     float: left;
@@ -167,7 +165,7 @@ h3, h2 {
     background: #4aaaa5;
     border-bottom: 0;
   }
-  
+   */
 .auth-image {
     float: left;
     width: 200px;
