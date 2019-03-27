@@ -119,7 +119,7 @@ h3, h2 {
   
 #main-container {
     padding-top: 130px;
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 70px)
   }
   
 .main-section {
@@ -131,6 +131,7 @@ h3, h2 {
     background: #ffffff;
     border: 1px solid #dddddd;
   }
+
   
   /* portfolio page */
 /*   
@@ -183,6 +184,10 @@ h3, h2 {
 #contact-form li {
     margin-bottom: 10px;
   }
+
+#portfolio-header {
+  color: #fff;
+}
   
 label,
 input[type=text],
@@ -277,7 +282,7 @@ input[type=submit] {
       padding-bottom: 5px;}
 }
 
-@media screen and (min-width: 769px) and (max-width: 980px) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
     
     .masthead {
       position: static;
@@ -285,10 +290,17 @@ input[type=submit] {
   nav {
       float: left;
       margin-left: 40px;
+      margin-top: 0px;
   }
   nav a:last-child {
         margin-right: 15px
     }
+    #logo {
+      /* make my name take up the entire width of the top */
+      width: 100%;
+      clear: both;
+      padding-bottom: 5px;}
+}
     /* .main-section {
         width: 90%
     } */
