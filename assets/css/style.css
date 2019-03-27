@@ -117,7 +117,7 @@ h3, h2 {
   
   /* main */
   
-/* #main-container {
+#main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
   }
@@ -130,7 +130,7 @@ h3, h2 {
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
-  } */
+  }
   
   /* portfolio page */
 /*   
