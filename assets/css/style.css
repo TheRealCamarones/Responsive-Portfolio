@@ -256,8 +256,8 @@ input[type=submit] {
     .container {
         max-width: 768px;
     }
-    .work {
-        margin: 5px}
+    /* .work {
+        margin: 5px} */
     .main-section {
         max-width: 786px;
         padding: 10px;
@@ -268,14 +268,28 @@ input[type=submit] {
     nav {
         float: left;
         margin-left: 40px;
+        margin-top: 0px;
     }
+    #logo {
+      /* make my name take up the entire width of the top */
+      width: 100%;
+      clear: both;
+      padding-bottom: 5px;}
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
-    nav a:last-child {
+    
+    .masthead {
+      position: static;
+  }
+  nav {
+      float: left;
+      margin-left: 40px;
+  }
+  nav a:last-child {
         margin-right: 15px
     }
-    .main-section {
+    /* .main-section {
         width: 90%
-    }
+    } */
 }
